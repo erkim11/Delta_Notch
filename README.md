@@ -1,5 +1,4 @@
 # Delta_Notch
 Investigating Cell Differentiation in the Brain with a Computational Model of Delta-Notch Signaling and Dynamical System Analysis
 
-**Abstract: **
 This project investigates the role of Delta-Notch signaling in neural cell differentiation. This signaling mechanism allows for neighboring cells to interact to regulate their protein concentration, resulting in a diverse pattern of functionally different cells in the brain. The mechanism involves a ligand-receptor binding system with Delta as a transmembrane ligand and Notch as a receptor. Upon binding, the receptor is activated, releasing Notch intracellular domain (NICD) into the cell cytoplasm. NICD increases Notch transcription and inhibits Delta expression, leading to a regulation in Delta-Notch binding rate in neighboring cells. This lateral inhibition mechanism induces divergent cell fates, with cells expressing high Delta levels becoming neurons and those with high Notch levels becoming glial cells. A Python-based simulation model using differential equations and agent-based dynamical network is developed to visualize and analyze the cell differentiation process in the brain over time.
